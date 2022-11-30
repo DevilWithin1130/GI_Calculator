@@ -1,4 +1,4 @@
-package Charactors;
+package Ability;
 
 public class Resistance {
     private double FIRE;
@@ -17,6 +17,22 @@ public class Resistance {
         this.THUNDER=thunder;
         this.WIND=wind;
         this.WATER=water;
+    }
+
+    public double getValue(Element element){
+        double res=0;
+
+        switch (element){
+            case FIRE -> res=this.getFIRE();
+            case ICE -> res=this.getICE();
+            case WATER -> res=this.getWATER();
+            case WIND -> res=this.getWIND();
+            case GRASS -> res=this.getGRASS();
+            case STONE -> res=this.getSTONE();
+            case THUNDER -> res=this.getTHUNDER();
+        }
+
+        return res;
     }
 
     public double getFIRE() {

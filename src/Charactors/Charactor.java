@@ -1,5 +1,7 @@
 package Charactors;
 
+import Ability.Resistance;
+
 public class Charactor {
     private int charactorLev;
     private int charactorHp;
