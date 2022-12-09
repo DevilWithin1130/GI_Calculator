@@ -1,16 +1,16 @@
-package MIHOYORelated;
+package module.mihoyo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-import module.mihoyo.genshin.GenShinSignMiHoYo;
-import module.mihoyo.genshin.bean.GenshinSignIn;
-import module.mihoyo.genshin.mapper.GsSignInMapping;
-import module.mihoyo.sign.bean.MiHoYo;
-import module.mihoyo.sign.mapper.SignInMapping;
-import simple.Send;
-import util.Base64Util;
+import qqrobot.module.mihoyo.genshin.GenShinSignMiHoYo;
+import qqrobot.module.mihoyo.genshin.bean.GenshinSignIn;
+import qqrobot.module.mihoyo.genshin.mapper.GsSignInMapping;
+import qqrobot.module.mihoyo.sign.bean.MiHoYo;
+import qqrobot.module.mihoyo.sign.mapper.SignInMapping;
+import qqrobot.simple.Send;
+import qqrobot.util.Base64Util;
 
 import java.util.HashMap;
 import java.util.List;

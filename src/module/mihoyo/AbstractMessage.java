@@ -1,9 +1,9 @@
-package MIHOYORelated;
+package module.mihoyo;
 
 import lombok.AllArgsConstructor;
-import module.mihoyo.genshin.mapper.GsSignInMapping;
-import module.mihoyo.sign.mapper.SignInMapping;
-import simple.Send;
+import qqrobot.module.mihoyo.genshin.mapper.GsSignInMapping;
+import qqrobot.module.mihoyo.sign.mapper.SignInMapping;
+import qqrobot.simple.Send;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -51,12 +51,12 @@ public abstract class AbstractMessage {
     public String sign(String cookie, String stuid, String stoken, String type, String version, String salt) throws Exception {
         //创建线程
         ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newCachedThreadPool();
-        String bhs = (String) new MiHoYoSignMiHoYo(cookie, MihoyoConfig.HubsEnum.BH3.getGame(), stuid, stoken, executor, type, version, salt).doSign();
+        String bhs = (String) new MiHoYoSignMiHoYo(cookie, MiHoYoConfig.HubsEnum.BH3.getGame(), stuid, stoken, executor, type, version, salt).doSign();
         if (!bhs.contains("米游社Cookie失效")) {
-            new MiHoYoSignMiHoYo(cookie, MihoyoConfig.HubsEnum.YS.getGame(), stuid, stoken, executor, type, version, salt).doSign();
-            new MiHoYoSignMiHoYo(cookie, MihoyoConfig.HubsEnum.BH2.getGame(), stuid, stoken, executor, type, version, salt).sign();
-            new MiHoYoSignMiHoYo(cookie, MihoyoConfig.HubsEnum.DBY.getGame(), stuid, stoken, executor, type, version, salt).sign();
-            new MiHoYoSignMiHoYo(cookie, MihoyoConfig.HubsEnum.WD.getGame(), stuid, stoken, executor, type, version, salt).sign();
+            new MiHoYoSignMiHoYo(cookie, MiHoYoConfig.HubsEnum.YS.getGame(), stuid, stoken, executor, type, version, salt).doSign();
+            new MiHoYoSignMiHoYo(cookie, MiHoYoConfig.HubsEnum.BH2.getGame(), stuid, stoken, executor, type, version, salt).sign();
+            new MiHoYoSignMiHoYo(cookie, MiHoYoConfig.HubsEnum.DBY.getGame(), stuid, stoken, executor, type, version, salt).sign();
+            new MiHoYoSignMiHoYo(cookie, MiHoYoConfig.HubsEnum.WD.getGame(), stuid, stoken, executor, type, version, salt).sign();
         } else {
             //将失效的Cookie账号数据进行删除方便重新绑定
             signInMapping.deleteByUid(stuid);
@@ -66,6 +66,6 @@ public abstract class AbstractMessage {
 
     public String CheckinStatus(String cookie, String stuid, String stoken, String type, String version, String salt) {
         ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newCachedThreadPool();
-        return (String) new MiHoYoSignMiHoYo(cookie, MihoyoConfig.HubsEnum.BH3.getGame(), stuid, stoken, executor, type, version, salt).sign();
+        return (String) new MiHoYoSignMiHoYo(cookie, MiHoYoConfig.HubsEnum.BH3.getGame(), stuid, stoken, executor, type, version, salt).sign();
     }
 }

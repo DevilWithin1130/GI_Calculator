@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/commons-codec-1.15-bin/commons-codec-1.15/commons-codec-1.15-tests.jar!/" />
@@ -22,7 +22,7 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/springframework-5.1.0.jar/springframework-5.1.0.jar!/" />
@@ -31,7 +31,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/commons-lang3-3.12.0.jar!/" />
@@ -40,7 +40,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/commons-cli-1.5.0.jar!/" />
@@ -49,7 +49,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/httpclient5-5.2.1.jar!/" />
@@ -58,7 +58,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/httpclient5-fluent-5.2.1.jar!/" />
@@ -67,7 +67,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/httpclient5-cache-5.2.1.jar!/" />
@@ -76,7 +76,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/httpclient5-testing-5.2.1.jar!/" />
@@ -85,7 +85,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/httpclient5-win-5.2.1.jar!/" />
@@ -94,7 +94,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/httpcore5-5.2.jar!/" />
@@ -103,7 +103,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/httpcore5-h2-5.2.jar!/" />
@@ -112,7 +112,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/httpcore5-reactive-5.2.jar!/" />
@@ -121,7 +121,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/httpcore5-testing-5.2.jar!/" />
@@ -130,7 +130,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/jna-5.12.1.jar!/" />
@@ -139,7 +139,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/jna-platform-5.12.1.jar!/" />
@@ -148,7 +148,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/reactive-streams-1.0.4.jar!/" />
@@ -157,7 +157,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/rxjava-2.2.21.jar!/" />
@@ -166,7 +166,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/rxjava-3.1.5.jar!/" />
@@ -175,7 +175,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcomponents-client-5.2.1-bin/lib/slf4j-api-1.7.36.jar!/" />
@@ -184,10 +184,73 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/httpcore-4.4.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/fastjson-2.0.20.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/lombok-1.18.24.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/spring-core-6.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/spring-beans-5.3.24.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/spring-2.5.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/simple-robot-core-1.17.0-Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Ide/IntelliJ/Jar/simple-robot-core-1.16.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
