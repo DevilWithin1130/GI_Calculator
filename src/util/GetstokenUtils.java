@@ -1,10 +1,10 @@
 package util;
 
+import MIHOYORelated.MihoyoConfig;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.yaml.snakeyaml.Yaml;
-import qqrobot.module.mihoyo.MiHoYoAbstractSign;
-import qqrobot.module.mihoyo.MiHoYoConfig;
+import MIHOYORelated.MiHoYoAbstractSign;
 
 import java.io.*;
 import java.util.HashMap;
@@ -27,7 +27,7 @@ public class GetstokenUtils {
     public static String doGen(String cookie) {
         String stoken;
         Map<String, String> headers = getCookieHeader(cookie);
-        String url = String.format(MiHoYoConfig.HUB_COOKIE2_URL, headers.get("login_ticket"), headers.get("login_uid"));
+        String url = String.format(MihoyoConfig.HUB_COOKIE2_URL, headers.get("login_ticket"), headers.get("login_uid"));
         MiHoYoAbstractSign helperHeader = new MiHoYoAbstractSign() {
             @Override
             public Object sign() {

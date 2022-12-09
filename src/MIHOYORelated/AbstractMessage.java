@@ -1,8 +1,6 @@
 package MIHOYORelated;
 
 import lombok.AllArgsConstructor;
-import module.mihoyo.genshin.mapper.GsSignInMapping;
-import module.mihoyo.sign.mapper.SignInMapping;
 import simple.Send;
 
 import java.util.concurrent.Executors;
@@ -10,8 +8,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 @AllArgsConstructor
 public abstract class AbstractMessage {
-    private final GsSignInMapping gsSignMessage;//原神数据表
-    private final SignInMapping signInMapping;//米游社数据表
     private final Send send;//发送消息
 
     /**
@@ -34,7 +30,6 @@ public abstract class AbstractMessage {
             case "尚未登录":
                 send.privates(qq, String.format("UID:%s\n原神Cookie已失效请重新绑定", uid));
                 //将失效的Cookie账号数据清除方便重新绑定
-                gsSignMessage.deleteByUid(uid);
                 break;
         }
     }
@@ -59,7 +54,6 @@ public abstract class AbstractMessage {
             new MiHoYoSignMiHoYo(cookie, MihoyoConfig.HubsEnum.WD.getGame(), stuid, stoken, executor, type, version, salt).sign();
         } else {
             //将失效的Cookie账号数据进行删除方便重新绑定
-            signInMapping.deleteByUid(stuid);
         }
         return bhs;
     }

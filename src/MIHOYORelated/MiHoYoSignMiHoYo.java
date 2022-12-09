@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.TypeReference;
 import org.apache.http.Header;
-import module.mihoyo.bean.PostResult;
+import bean.PostResult;
 import util.DateTimeUtils;
 import util.HttpUtils;
 
